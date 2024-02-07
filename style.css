@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .container {
+    width: 100%;
+    background: linear-gradient(to top, rgb(0, 0, 0, 0.5),
+    rgb(0, 0, 0, 0.5)50%), url(images/background\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+  }
+
+  .navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+  }
+
+  .icon {
+    width: 200px;
+    height: 70px;
+  }
+
+  .logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    font-weight: bold;
+
+    padding-top: 10px;
+  }
+
+  .logo-align {
+    float: left;
+  }
+
+  .ul-align {
+    float: left;
+  }
+
+  .menu {
+    width: 670px;
+    height: 70px;
+  }
+
+
+  ul {
+    list-style: none;
+    text-decoration: none;
+    margin-top: 27px;
+  }
+
+  ul li {
+    display: inline;
+    padding: 10px;
+    margin-left: 40px;
+    font-size: 14px;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+  }
+
+  ul li a:hover {
+    color: #ff7200;
+  }
+
+  .search-bar-align {
+    float: left;
+  }
+
+  .search-bar {
+    width: 330px;
+  }
+
+  .search {
+    font-family: 'Times New Roman', Times;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #ffffff;
+    border-right: none;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+
+  .btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #000000;
+    font-size: 15px;
+    border-bottom-right-radius: 5px; 
+  }
+
+  .btn:focus {
+    outline: none;
+  }
+
+  .search:focus {
+    outline: none;
+  }
+
+  .content {
+    width: 50%;
+    color: #ffffff;
+
+  }
+
+  .content .para {
+    padding-bottom: 25px;
+    font-family: Arial;
+    line-height: 30px;
+    letter-spacing: 1.2;
+  }
+
+  .content .heading {
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    letter-spacing: 2px;
+    margin-top: 9%;
+  }
+
+  .content .cn-btn {
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+  }
+
+  .content .cn-btn a {
+    text-decoration: none;
+    color: #000000;
+    transition: .3s ease;
+  }
+
+  .cn-btn:hover {
+    background: #ffffff;
+  }
+
+  .content span {
+    color: #ff7200;
+    font-size: 65px;
+  }
+
+  .content-align {
+    float: left;
+  }
+
+  .log-align {
+    float: right;
+    padding-right: 50px;
+    padding-top: 60px;
+  }
+
+  .form {
+    width: 290px;
+    height: auto;
+    background: linear-gradient(to top, rgb(0,0,0,0.8)50%, rgb(0,0,0,0.8)50%);
+    border-radius: 10px;
+    padding: 25px;
+  }
+
+  .form .login-heading {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+  }
+
+  .form input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-top: 30px;
+  }
+
+  .form input:focus {
+    outline: none;
+  }
+
+  ::placeholder {
+    color: #ffffff;
+    font-family: Arial;
+  }
+
+  .form .login-btn {
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+
+  .form .login-btn:hover {
+    background: #ffffff;
+    color: #ff7200;
+  }
+
+  .form .login-btn a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
+
+  .form .link {
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .form .link a {
+    text-decoration: none;
+    color: #ff7200;
+    text-align: center;
+  }
+
+  .liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial;
+  }
+
+  .ul-style {
+    list-style: none;
+  }
+
+  .li-align {
+    display: inline;
+    margin-left: 0px;
+  }
+
+  .facebook {
+    color: #ffffff;
+    font-size: 22px;
+  }
+
+  .twitter {
+    color: #ffffff;
+    font-size: 22px;
+  }
+
+  .instagram {
+    color: #ffffff;
+    font-size: 22px;
+  }
+
+  .whatsapp {
+    color: #ffffff;
+    font-size: 22px;
+  }
+
+  .facebook:hover {
+    color:#ff7200;
+  }
+
+  .twitter:hover {
+    color: #ff7200;
+  }
+
+  .instagram:hover {
+    color: #ff7200;
+  }
+
+  .whatsapp:hover {
+    color: #ff7200;
+  }
+
+
+
